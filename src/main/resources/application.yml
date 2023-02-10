@@ -2,4 +2,7 @@ server:
   error:
     include-message: always
     include-binding-errors: always
+    whitelabel:
+      enabled: false
+    path: /error
   port: 8080
